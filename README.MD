@@ -45,3 +45,18 @@ When you are done working in the virtual environment, deactivate it:
 ``` bash
 deactivate
 ```
+
+---
+##### Common Commands for Reference
+
+| **Command**                     | **Description**                                    |
+|---------------------------------|----------------------------------------------------|
+| `python3 -m venv venv`          | Create a virtual environment named `venv`.        |
+| `source venv/bin/activate`      | Activate the virtual environment (macOS/Linux).   |
+| `.\venv\Scripts\activate`       | Activate the virtual environment (Windows).       |
+| `deactivate`                    | Deactivate the virtual environment.               |
+| `pip install <package-name>`    | Install a package in the virtual environment.     |
+| `pip freeze > requirements.txt` | Save the list of installed packages to a file.    |
+| `pip install -r requirements.txt` | Install dependencies from a file.              |
+| `pip install --upgrade pip`     | Upgrade pip to the latest version.                |
+
